@@ -7,7 +7,7 @@
 ***<h2> 📚 Módulo: Técnicas avançadas em Banco de Dados com MySQL. </h2>***
 
 
-<h5> :blue_book: Parte 1 – Personalizando acessos com views. </h5>
+<h4> :blue_book: Parte 1 – Personalizando acessos com views. </h4>
 
 Este desafio cria visões para os seguintes cenários:<br/>
 
@@ -19,7 +19,7 @@ Este desafio cria visões para os seguintes cenários:<br/>
 <br/>
 
 
-Além disso, serão definidas as permissões de acesso às views de acordo com o tipo de conta de usuários.:small_red_triangle: Lembrando que :small_red_triangle: as views ficam armazenadas no banco de dados como uma “tabela”. Assim podemos definir permissão de acesso a este item do banco de dados. :blue_heart:  
+Além disso, serão definidas as permissões de acesso às views de acordo com o tipo de conta de usuários. :small_red_triangle: Lembrando que :small_red_triangle: as views ficam armazenadas no banco de dados como uma “tabela”. Assim podemos definir permissão de acesso a este item do banco de dados. :blue_heart:  
 
 
 Poderá ser criado um usuário gerente que terá acesso as informações de employee e departamento. Contudo, employee não terá acesso as informações relacionadas aos departamentos ou gerentes. 
@@ -31,7 +31,7 @@ Um exemplo retirado do curso para criação de usuário e definição de permiss
 
   
   
-<h5> :blue_book: Parte 2 – Criando gatilhos para cenário de e-commerce. </h5>  
+<h4> :blue_book: Parte 2 – Criando gatilhos para cenário de e-commerce. </h4>  
 Objetivo: Sabemos que a criação de triggers está associada à ações que podem ser tomadas em momento anterior ou posterior à inserção, ou atualização dos dados. Além disso, em casos de remoção podemos utilizar as triggers. Sendo assim, criação de triggers para o cenário de e-commerce: <br/> <br/>
 
 Exemplo de trigger para base:<br/>
@@ -40,11 +40,10 @@ Exemplo de trigger para base:<br/>
 
 Entregável: <br/> 
 :heavy_check_mark: Triggers de remoção: before delete. <br/> 
-:heavy_check_mark: Triggers de atualização: before update. <br/> 
-
+:heavy_check_mark: Triggers de atualização: before update. 
 
 Remoção:  
-Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, cria-se um gatilho before remove. <br/><br/> 
+Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, cria-se um gatilho before remove. <br/>
 
 <h5>CODE 3:</h5>
 Atualização:  <br/> 
